@@ -1,0 +1,100 @@
+PODS:
+  - FitpoloSDK-iOS (0.2.0):
+    - FitpoloSDK-iOS/adopter (= 0.2.0)
+    - FitpoloSDK-iOS/category (= 0.2.0)
+    - FitpoloSDK-iOS/centralManager (= 0.2.0)
+    - FitpoloSDK-iOS/header (= 0.2.0)
+    - FitpoloSDK-iOS/interface (= 0.2.0)
+    - FitpoloSDK-iOS/log (= 0.2.0)
+    - FitpoloSDK-iOS/task (= 0.2.0)
+    - FitpoloSDK-iOS/update (= 0.2.0)
+  - FitpoloSDK-iOS/adopter (0.2.0):
+    - FitpoloSDK-iOS/header
+  - FitpoloSDK-iOS/category (0.2.0)
+  - FitpoloSDK-iOS/centralManager (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/category
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/log
+    - FitpoloSDK-iOS/task/operation
+  - FitpoloSDK-iOS/header (0.2.0)
+  - FitpoloSDK-iOS/interface (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/category
+    - FitpoloSDK-iOS/centralManager
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/interface/device (= 0.2.0)
+    - FitpoloSDK-iOS/interface/userData (= 0.2.0)
+    - FitpoloSDK-iOS/log
+    - FitpoloSDK-iOS/task/operation
+  - FitpoloSDK-iOS/interface/device (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/category
+    - FitpoloSDK-iOS/centralManager
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/log
+    - FitpoloSDK-iOS/task/operation
+  - FitpoloSDK-iOS/interface/userData (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/category
+    - FitpoloSDK-iOS/centralManager
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/log
+    - FitpoloSDK-iOS/task/operation
+  - FitpoloSDK-iOS/log (0.2.0):
+    - FitpoloSDK-iOS/header
+  - FitpoloSDK-iOS/task (0.2.0):
+    - FitpoloSDK-iOS/task/fitpolo701 (= 0.2.0)
+    - FitpoloSDK-iOS/task/fitpoloCurrent (= 0.2.0)
+    - FitpoloSDK-iOS/task/operation (= 0.2.0)
+  - FitpoloSDK-iOS/task/fitpolo701 (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/log
+  - FitpoloSDK-iOS/task/fitpoloCurrent (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/log
+  - FitpoloSDK-iOS/task/operation (0.2.0):
+    - FitpoloSDK-iOS/header
+    - FitpoloSDK-iOS/task/fitpolo701
+    - FitpoloSDK-iOS/task/fitpoloCurrent
+  - FitpoloSDK-iOS/update (0.2.0):
+    - FitpoloSDK-iOS/adopter
+    - FitpoloSDK-iOS/centralManager
+    - FitpoloSDK-iOS/header
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - Toast (4.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - FitpoloSDK-iOS (from `../`)
+  - Masonry
+  - MBProgressHUD
+  - Toast
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - Toast
+    - YYKit
+
+EXTERNAL SOURCES:
+  FitpoloSDK-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FitpoloSDK-iOS: 59f25ef1ca8fce9fbfd450941a672cf0f7d98995
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: b395413238bdd00bfeede17ac67e5ed542923c73
+
+COCOAPODS: 1.11.3
